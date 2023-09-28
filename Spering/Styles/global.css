@@ -14,7 +14,23 @@
     background-color: var(--red);
     color: var(--white);
     font-size: 16px;
-    cursor: pointer;
+    cursor: pointer;    
+}
+.dark-btn{
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: var(--dark-green);
+    color: var(--white);
+    font-size: 16px;
+    cursor: pointer;    
+}
+.light-btn{
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 16px;
+    cursor: pointer;    
 }
 /* HEADER */
 header{
@@ -22,7 +38,7 @@ header{
     display: flex;
     flex-direction: row;
     background: rgb(26,46,53);
-background: linear-gradient(90deg, rgba(26,46,53,1) 0%, rgba(28,187,180,1) 100%);
+    background: linear-gradient(90deg, rgba(26,46,53,1) 0%, rgba(28,187,180,1) 100%);
 }
 header .header-start{
     width: 55%;
@@ -59,7 +75,7 @@ header .header-start{
 .header-nav ul li a{
     text-decoration: none;
     color: var(--white);
-    font-size: 13px;
+    font-size: 16px;
 }
 header .header-end{
     width: 55%;
