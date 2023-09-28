@@ -119,8 +119,13 @@
 }
 
 .img-box {
-    width: 40%;
+    width: 500px;
+    height: 500px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-box img {
@@ -128,18 +133,23 @@
     border-radius: 500px;
     border: 5px solid var(--purple);
 }
+.img-box-buttons{
+    width: 400px;
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .circle-btn-left {
-    position: absolute;
     width: 50px;
     height: 50px;
     background-color: var(--purple);
     border-radius: 100%;
     text-align: center;
-    padding: 13px;
     color: var(--white);
-    right: 70px;
-    bottom: 30px;
     font-size: 15px;
     font-weight: bolder;
     padding: 7px;
@@ -148,7 +158,6 @@
 }
 
 .circle-btn-right {
-    position: absolute;
     width: 50px;
     height: 50px;
     background-color: var(--white);
@@ -156,8 +165,6 @@
     text-align: center;
     padding: 7px;
     color: var(--purple);
-    right: 130px;
-    bottom: -5px;
     font-size: 25px;
     font-weight: bolder;
     cursor: pointer;
