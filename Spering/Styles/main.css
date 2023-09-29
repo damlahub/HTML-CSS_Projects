@@ -138,12 +138,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 #work h1{
     color: var(--black);
-    margin-left: 150px;
-    margin-bottom: 20px;
+    margin: 50px 200px;
 }
 #work .work-contents{
     width: 90%;
